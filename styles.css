@@ -1,0 +1,44 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    text-align: center;
+}
+
+#typing-effect {
+    font-size: 2em;
+    color: #4CAF50;
+    margin-bottom: 20px;
+}
+
+#gift-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+#gift-button:hover {
+    background-color: #45a049;
+}
+
+#3d-container {
+    width: 400px;
+    height: 400px;
+    margin: 20px auto;
+}
+
+#surprise-text {
+    font-size: 1.5em;
+    color: #d32f2f;
+}
