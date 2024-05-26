@@ -2,6 +2,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const typingEffectElement = document.getElementById('typing-effect');
     const giftButton = document.getElementById('gift-button');
     const surpriseText = document.getElementById('surprise-text');
+    const secondButton = document.getElementById('second-button');
     const messages = ['Joyeux anniversaire Nick', 'Clique ici pour recevoir ton cadeau'];
     let messageIndex = 0;
     let charIndex = 0;
@@ -27,7 +28,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
     giftButton.addEventListener('click', () => {
         surpriseText.style.display = 'block';
+        secondButton.style.display = 'block';
         openGift();
+    });
+
+    secondButton.addEventListener('click', () => {
+        window.location.href = 'https://github.com/Salemgnk/Nick';
     });
 
     function openGift() {
